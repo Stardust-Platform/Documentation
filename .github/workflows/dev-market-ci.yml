@@ -1,0 +1,24 @@
+name: Sync `documentation` directory to ReadMe
+
+# Run workflow for every push to the `main` branch
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Sync Stardust Guides
+        uses: readmeio/rdme@7.2.0
+        with:
+          rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=0.0.0
+
+      - name: Sync Stardust Core OpenAPI file
+        uses: readmeio/rdme@7.2.0
+        with:
+          rdme: openapi ./ref/stardustMarket.json --key=7jxMDILq5wZxTRaa4uhafttXDC8tcCOd --version=0.0.0
