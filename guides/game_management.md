@@ -3,7 +3,7 @@
 title: Game Management
 excerpt: Basics of how to use the Admin Dashboard to make and manage a game
 category: 6262dcb3f131660a4c6e72f8
-slug: creating-a-game-dev
+slug: creating-a-game
 order: 1
 
 ---
