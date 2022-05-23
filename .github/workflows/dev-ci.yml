@@ -18,7 +18,7 @@ jobs:
         with:
           rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=0.0.0
 
-      - name: Sync Stardust Core OpenAPI file
-        uses: readmeio/rdme@7.2.0
-        with:
-          rdme: openapi ./ref/stardustCore.json --key=7jxMDILq5wZxTRaa4uhafttXDC8tcCOd --version=0.0.0
+          ##      - name: Sync Stardust Core OpenAPI file
+          ##        uses: readmeio/rdme@7.2.0
+          ##        with:
+          ##          rdme: openapi ./ref/stardustCore.json --key=7jxMDILq5wZxTRaa4uhafttXDC8tcCOd --version=0.0.0
