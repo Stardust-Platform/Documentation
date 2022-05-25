@@ -1,10 +1,10 @@
-name: Sync main branch to ReadMe
+name: Sync dev branch to ReadMe
 
-# Run workflow for every push to the `main` branch
+# Run workflow for every push to the `dev` branch
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   sync:
@@ -17,7 +17,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v2
         with:
           find: "../"
-          replace: "https://raw.githubusercontent.com/Stardust-Platform/Documentation/main/"
+          replace: "https://raw.githubusercontent.com/Stardust-Platform/Documentation/dev/"
           regex: false
           include: guides/*
 
@@ -25,14 +25,14 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v2
         with:
           find: "ADMIN_DASHBOARD_ID"
-          replace: "628e5f505740bd007d37fcab"
+          replace: "626c5405d8dcda006293ca0d"
           regex: false
           include: guides/*
 
       - name: Sync Stardust Guides
         uses: readmeio/rdme@7.2.0
         with:
-          rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=1.0.0
+          rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=0.0.0
 
           ##      - name: Sync Stardust Core OpenAPI file
           ##        uses: readmeio/rdme@7.2.0
