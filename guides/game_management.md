@@ -2,7 +2,7 @@
 
 title: Game Management
 excerpt: Basics of how to use the Admin Dashboard to make and manage a game
-category: 626c5405d8dcda006293ca0d
+category: ADMIN_DASHBOARD_ID
 slug: creating-a-game
 order: 1
 

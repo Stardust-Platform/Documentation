@@ -21,10 +21,18 @@ jobs:
           regex: false
           include: guides/*
 
+      - name: Find and replace admin dashboard category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "ADMIN_DASHBOARD_ID"
+          replace: "628e5f505740bd007d37fcab"
+          regex: false
+          include: guides/*
+
       - name: Sync Stardust Guides
         uses: readmeio/rdme@7.2.0
         with:
-          rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=0.0.0
+          rdme: docs ./guides --key=${{ secrets.README_API_KEY }} --version=1.0.0
 
           ##      - name: Sync Stardust Core OpenAPI file
           ##        uses: readmeio/rdme@7.2.0
