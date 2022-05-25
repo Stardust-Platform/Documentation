@@ -13,6 +13,14 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v3
 
+      - name: Find and replace image file paths
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "../"
+          replace: "https://raw.githubusercontent.com/Stardust-Platform/Documentation/main/"
+          regex: false
+          include: guides/*
+
       - name: Sync Stardust Guides
         uses: readmeio/rdme@7.2.0
         with:

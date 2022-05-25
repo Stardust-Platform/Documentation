@@ -14,7 +14,7 @@ Once you've signed in, you should be redirect to a page that looks something lik
 
 This is the games page. This is where you can see all your current games that are running on Stardust.
 
-![Game's Page](https://github.com/Stardust-Platform/Documentation/blob/main/images/guides/game_management/Games_Page.png "Game's Page")
+![Game's Page](../images/guides/game_management/Games_Page.png "Game's Page")
 
 Go ahead and hit that "+ Add Game" button to go ahead and lay the foundation for our first game. On click, a form fill should pop up asking you to fill out the information about your game.
 
@@ -30,7 +30,7 @@ Once you've selected the blockchain that you'd like to build on then go ahead an
 The dashboard should set the newly created game as the default, but if not, hit the "Select" button to make sure that it is the active game.
 
 
-![Select Game](https://github.com/Stardust-Platform/Documentation/blob/main/images/guides/game_management/Select_Game.png "Select Game")
+![Select Game](../images/guides/game_management/Select_Game.png "Select Game")
 
 And just like that! You've created your first game on the blockchain! No gas fees, and no coding required! Let's move on to the next step of getting your API key!
 
@@ -39,14 +39,14 @@ And just like that! You've created your first game on the blockchain! No gas fee
 To start, shift your attention to the navigation bar on the left hand side of the page. Near the bottom of the navigation options there is "API Keys." Go ahead and navigate there.
 
 
-![Navigation Bar](https://github.com/Stardust-Platform/Documentation/blob/main/images/guides/game_management/Nav_bar.png "Navigation Bar")
+![Navigation Bar](../images/guides/game_management/Nav_bar.png "Navigation Bar")
 
 Now you're on the API page. This is where you can see how many API calls are being made(top tile), view the API logs(bottom right), and manage your API keys(bottom left).
 
 Go ahead and shift your attention to the key management page and click on "Create Key"
 
 
-![API Page](https://github.com/Stardust-Platform/Documentation/blob/main/images/guides/game_management/API_Page.png "API Page")
+![API Page](../images/guides/game_management/API_Page.png "API Page")
 
 With that done you've now successfully created your API key to use, and you're ready to begin using the Stardust API.
 
