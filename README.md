@@ -32,9 +32,9 @@ Documentation for the Stardust Platform and for integration with the Readme Plat
 ## Github Actions:
 - on:push:dev will update dev Readme Docs version v0.0.0
 - on:push:dev-market will update same dev Readme Docs version (v0.0.0)
-- on:pull-request-accepted:main will update Readme Docs v1.0.X
-- on:pull-request-accepted:main-market will update Readme Docs v1.1.X (Beta)
+- on:pull-request-merged:main will update Readme Docs v1.0.X
+- on:pull-request-merged:main-market will update Readme Docs v1.1.X (Beta)
 - Need to make two pull requests to main and main-market from 
 
 
-![Guide Repo Management](./images/GuideRepoManagement.png "Guide Repo Management")
+![Guide Repo Management](./images/GuideRepoManagementv2.png "Guide Repo Management")
