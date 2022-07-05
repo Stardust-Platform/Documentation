@@ -29,6 +29,14 @@ jobs:
           regex: false
           include: guides/*
 
+      - name: Find and replace stardust APIs category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "STARDUST_APIS_ID"
+          replace: "62c478e4217e3f009873123a"
+          regex: false
+          include: guides/*
+
       - name: Sync Stardust Guides
         uses: readmeio/rdme@7.2.0
         with:
