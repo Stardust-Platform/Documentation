@@ -3,7 +3,7 @@
 title: Adding your First Player
 excerpt: Basic Quick Start on how to add your First Player to your Game.
 category: QUICK_START_ID
-slug: creating-your-first-game
+slug: creating-your-first-player
 order: 2
 
 ---
