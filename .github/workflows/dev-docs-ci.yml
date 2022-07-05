@@ -21,6 +21,14 @@ jobs:
           regex: false
           include: guides/*
 
+      - name: Find and replace quick start category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "QUICK_START_ID"
+          replace: "62c478c8cba0f5004906245d"
+          regex: false
+          include: guides/*
+
       - name: Find and replace admin dashboard category ID
         uses: jacobtomlinson/gha-find-replace@v2
         with:
