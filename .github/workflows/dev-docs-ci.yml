@@ -21,6 +21,30 @@ jobs:
           regex: false
           include: guides/*
 
+      - name: Find and replace image file paths
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "img"
+          replace: "https://raw.githubusercontent.com/Stardust-Platform/stardust-unreal-login/main/img"
+          regex: false
+          include: guides/unreal**
+
+      - name: Find and replace image file paths
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "img"
+          replace: "https://raw.githubusercontent.com/Stardust-Platform/stardust-unity-login/main/img"
+          regex: false
+          include: guides/unity**
+
+      - name: Find and replace login widget category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "CLIENT_SDK_ID"
+          replace: "629a4197ebff9900479064ec"
+          regex: false
+          include: guides/*
+
       - name: Find and replace quick start category ID
         uses: jacobtomlinson/gha-find-replace@v2
         with:
