@@ -52,6 +52,14 @@ jobs:
           replace: "62cd91e4a9fe9e021e3d8bd3"
           regex: false
           include: guides/*
+      
+      - name: Find and replace login widget category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "MARKET_PARENT_ID"
+          replace: "629f949f74356100275d0175"
+          regex: false
+          include: guides/*
           
       - name: Find and replace quick start category ID
         uses: jacobtomlinson/gha-find-replace@v2
