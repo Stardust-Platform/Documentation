@@ -1,7 +1,7 @@
 ---
 
 title: Unity SDK
-excerpt: Basics of how to setup the Stardust Login Widget for your Unity Game
+excerpt: Basics of how to setup the Stardust SDK for your Unity Game
 category: CLIENT_SDK_ID
 slug: unity-login-widget
 order: 1
