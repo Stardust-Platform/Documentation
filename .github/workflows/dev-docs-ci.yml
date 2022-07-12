@@ -45,6 +45,14 @@ jobs:
           regex: false
           include: guides/*
 
+      - name: Find and replace login widget category ID
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "BUILDING_WITH_STARDUST_ID"
+          replace: "62cd91e4a9fe9e021e3d8bd3"
+          regex: false
+          include: guides/*
+          
       - name: Find and replace quick start category ID
         uses: jacobtomlinson/gha-find-replace@v2
         with:
