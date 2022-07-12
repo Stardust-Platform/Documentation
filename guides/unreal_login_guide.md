@@ -1,7 +1,7 @@
 ---
 
-title: Unreal Login Widget Guide
-excerpt: Basics of how to setup the Stardust Login Widget for your Unreal Game
+title: Unreal SDK
+excerpt: Basics of how to setup the Stardust SDK for your Unreal Game
 category: CLIENT_SDK_ID
 slug: unreal-login-widget
 order: 2
