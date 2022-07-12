@@ -13,9 +13,9 @@ Player's exist in stardust to reduce the friction that comes with a person creat
 ## Option 1: Using the Admin Dashboard
 If you're following selecting to follow this guide via the Stardust API, please jump to [Option 2: Using the API](#using-the-api)
 
-To start we need to navigate to the players page and select the `+ Add Player` button in the upper right hand corner.
+To start we need to navigate to the players page and select the `+ Add Player`.
 
-![Add Player](../images/guides/first_player/add_player.png)
+![Add Player](../images/guides/first_player/No_Players.png)
 
 Which will then prompt you to provide a Unique ID and any custom properties as well, like such:
 
