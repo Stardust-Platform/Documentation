@@ -44,5 +44,5 @@ So while we try to make things as informative as possible, and structured such t
 If you read something that referenced something elsewhere, or came across something in the guides the seems superficial, then try to search functionality to locate the associated information. You can do so by pressing `CTRL` + `K`(on Windows or `CMD` + `K` for Macs) to open up the search window. This will allow you to search the entirety of the Stardust docs.
 
 ### Using the Discussions
-If you're unlucky with finding what you're looking for using the search functionality, then head over to the [Discussions](https://docs.stardust.gg/v0.0.0/discuss) and ask a question! A Stardust team member will try to get back to you as soon as possible.
+If you're unlucky with finding what you're looking for using the search functionality, then head over to the [Discussions](https://docs.stardust.gg/discuss) and ask a question! A Stardust team member will try to get back to you as soon as possible.
 

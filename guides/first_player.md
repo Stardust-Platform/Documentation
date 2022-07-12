@@ -36,7 +36,7 @@ Go ahead and click the Unique ID at the top, to copy the playerId to your clipbo
 
 ## Option 2: Using the API<a name='using-the-api' ></a>
 
-Now if we're going to create a player via the API, feel free to use whatever API tool you'd like to use, or write your own script, but we're going to use the API Reference section to make our API calls. To make a player we're going to navigate to the [Create Player](https://docs.stardust.gg/v0.0.0/reference/post_player-create) page.
+Now if we're going to create a player via the API, feel free to use whatever API tool you'd like to use, or write your own script, but we're going to use the API Reference section to make our API calls. To make a player we're going to navigate to the [Create Player](https://docs.stardust.gg/reference/post_player-create) page.
 
 Here there's a couple of things we need to fill out to make a player via the API, pretty similar to using the dashboard but with a few changes.
 

@@ -40,7 +40,7 @@ Once filled out, go ahead and click `confirm` and if everything goes well, you'v
 
 For the last step we're going to mint a token to our player using the token template we just created.
 
-Once more, we're going to use the API Reference section again using the [Mint Token](https://docs.stardust.gg/v0.0.0/reference/post_token-mint) page.
+Once more, we're going to use the API Reference section again using the [Mint Token](https://docs.stardust.gg/reference/post_token-mint) page.
 
 Looking at the body params we can see what all is required.
 

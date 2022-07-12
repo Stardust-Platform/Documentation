@@ -52,9 +52,9 @@ For that, go ahead and click into the newly created template, and grab it's temp
 
 ## Option 2: Using the API<a name='using-the-api' ></a>
 
-Just like adding our first player, we're going to do the same using the API via the [API Reference](docs.stardust.gg/v0.0.0/reference).
+Just like adding our first player, we're going to do the same using the API via the [API Reference](docs.stardust.gg/reference).
 
-Navigate to the [Create Template](https://docs.stardust.gg/v0.0.0/reference/post_template-create), and let's inspect the body parameters.
+Navigate to the [Create Template](https://docs.stardust.gg/reference/post_template-create), and let's inspect the body parameters.
 
 ![Template Params](../images/guides/first_template/template_body_params.png)
 
